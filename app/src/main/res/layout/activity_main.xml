@@ -29,8 +29,8 @@
         <EditText
             android:id="@+id/email"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="email"/>
+            android:layout_height="48dp"
+            android:hint="email" />
         <TextView
             android:id="@+id/podajHaslo"
             android:layout_width="wrap_content"
@@ -39,18 +39,20 @@
         <EditText
             android:id="@+id/haslo"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPassword"/>
+            android:layout_height="48dp"
+            android:inputType="textPassword"
+            android:hint="haslo" />
         <TextView
             android:id="@+id/powtorzHaslo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Podaj haslo"/>
+            android:text="Powtorz haslo"/>
         <EditText
             android:id="@+id/powtorz"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPassword"/>
+            android:layout_height="48dp"
+            android:inputType="textPassword"
+            android:hint="powtorz haslo"/>
         <Button
             android:id="@+id/przycisk"
             android:layout_width="wrap_content"
